@@ -1,7 +1,7 @@
 Type      Number of cells   DoD       DoC         Charge C-rate   Charge voltage		
 FLA/VRLA  6                 30% SOC   95% SOC     0,25C           2,35-2,45V per cell
-NiFe      10                15% SOC   95% SOC     0,14C           1,7v per cell
-NiMH      10                20% SOC   95% SOC     0,5C            1,4-1,6v per cell
+NiFe      10                15% SOC   95% SOC     0,14C           1,7V per cell
+NiMH      10                20% SOC   95% SOC     0,5C            1,4-1,6V per cell
 
 Peak/off peak hours table:
 between 00 hours to 06 hours: off-peak hours
