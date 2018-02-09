@@ -1,17 +1,13 @@
-Type      Number of cells   DoD       DoC         Charge C-rate   Charge voltage		
-FLA/VRLA  6                 30% SOC   95% SOC     0,25C           2,35-2,45V per cell
-NiFe      10                15% SOC   95% SOC     0,14C           1,7V per cell
-NiMH      10                20% SOC   95% SOC     0,5C            1,4-1,6V per cell
-
 Peak/off peak hours table:
 between 00 hours to 06 hours: off-peak hours
 between 06 hours to 22 hours: peak hours
 between 22 hours to 00 hours: off-peak hours
 
-Make switch active (allowing battery to be recharged):
-When SOC level is below 95% and when off-peak hours are in effect
-OR
-When DoD SOC level of battery type selected has been reached regardless of whether off-peak or peak hours are in effect.
+Make switch active (allowing use of mains electricity power):
+When off-peak hours are in effect
 
 Make switch inactive:
-When DoC SOC level of battery type selected has been reached
+When peak hours are in effect
+
+Note:
+This arduino (code) can also be replaced by a time switch
